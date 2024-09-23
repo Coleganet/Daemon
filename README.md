@@ -52,10 +52,11 @@ and edit the hosts file , (Make a copy of the file in case before anything)
 Add  them the next when the IP is the IP of your Rancher Desktop . Just check your Ip before anything 
 
  Added Docker Desktop TO Windows Host
- 
+ ```
 172.20.0.3 host.docker.internal
-172.20.0.3 gateway.docker.internal
 
+172.20.0.3 gateway.docker.internal
+```
 save and exit from Rancher Desktop / Reboot Windows 
 Now Traefik is indeed working again just go to http://localhost:8080/dashboard/#/ and the best the daemon of docker desktop is exposed 
 Not need for any ports setup or any modifications that work perfect in any port or ip your external app or service will get Rancher Desktop
