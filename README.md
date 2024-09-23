@@ -8,6 +8,10 @@ Create on Rancher Desktop witch a Docker-Desktop Daemon
 3.- copy and paste the next
 
 ```
+ version: "3.3"
+
+services:
+
   traefik:
     image: "traefik:v3.1"
     container_name: "traefik"
@@ -20,8 +24,6 @@ Create on Rancher Desktop witch a Docker-Desktop Daemon
     ports:
       - "80:80"
       - "8080:8080"
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
