@@ -1,4 +1,4 @@
-# Docker Daemon
+# Docker Daemon  Desktop with Ranger Desktop
 Create on Rancher Desktop witch a Docker-Desktop Daemon 
 
  INSTRUCTIONS 
