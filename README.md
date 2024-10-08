@@ -40,6 +40,10 @@ done now you just start with
 
 docker compose up -d
 
+look always your new traefik container is Online and the new Web container 
+from traefik . the script create 2 containers.
+Please setup or issues use the Discussions here
+
 The trick is you have this Lines
 
 ```
