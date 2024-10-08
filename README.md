@@ -67,3 +67,8 @@ Not need for any ports setup or any modifications that work perfect in any port 
 
 In case Docker complaint the File version is old delete the first line said:
 version: "3.3"
+
+Follow on Pi forum
+
+
+https://fireside.pinet.com/posts/6705163386a83f004130af30
