@@ -68,6 +68,8 @@ Not need for any ports setup or any modifications that work perfect in any port 
 In case Docker complaint the File version is old delete the first line said:
 version: "3.3"
 
+The file dockerdesktop.yml is just for install trefik no daemon add
+
 Follow on Pi forum
 
 
